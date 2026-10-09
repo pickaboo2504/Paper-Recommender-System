@@ -150,19 +150,6 @@ The final recommendation score is a weighted combination of both approaches.
 └── README.md
 ```
 
-## Future Enhancements
-
-- PDF text extraction for better content analysis
-- Advanced search with full-text search capabilities
-- Paper collections/reading lists
-- Social features (comments, sharing)
-- Export recommendations
-- Email notifications for new recommendations
-- Integration with external paper databases (arXiv, PubMed, etc.)
-
-## License
-
-MIT License
 
 
 
