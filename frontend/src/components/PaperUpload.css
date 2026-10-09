@@ -1,0 +1,22 @@
+.file-upload {
+  margin-bottom: 16px;
+}
+
+.file-upload label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 500;
+}
+
+.error {
+  background: #fee;
+  color: #c33;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+
+
+

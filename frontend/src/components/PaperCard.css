@@ -1,0 +1,64 @@
+/* frontend/src/components/PaperCard/PaperCard.css */
+.paper-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px 0;
+  background: white;
+  transition: box-shadow 0.3s;
+}
+
+.paper-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.stars {
+  display: inline-flex;
+  margin: 0 10px;
+}
+
+.star {
+  cursor: pointer;
+  font-size: 24px;
+  margin: 0 2px;
+  transition: all 0.2s;
+}
+
+.star.filled {
+  color: #ffc107;
+  text-shadow: 0 0 5px rgba(255, 193, 7, 0.5);
+}
+
+.star.empty {
+  color: #ddd;
+}
+
+.star:hover {
+  transform: scale(1.2);
+}
+
+/* Rating feedback */
+.rating-feedback {
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  animation: fadeIn 0.5s;
+}
+
+.rating-success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.rating-error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

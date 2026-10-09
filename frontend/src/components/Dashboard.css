@@ -1,0 +1,110 @@
+.dashboard-header {
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.dashboard-header h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.dashboard-header p {
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.field-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.field-form .input {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.fields-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.field-tag {
+  background: #667eea;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.empty-state {
+  color: #999;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+}
+
+.quick-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.action-btn {
+  padding: 16px;
+  background: #667eea;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.action-btn:hover {
+  background: #5568d3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.recent-papers {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.recent-paper {
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s;
+}
+
+.recent-paper:hover {
+  background: #e9ecef;
+  transform: translateX(4px);
+}
+
+.recent-paper-title {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.recent-paper-authors {
+  font-size: 14px;
+  color: #666;
+}
+
+
+
+

@@ -1,0 +1,57 @@
+.paper-detail-header {
+  margin-bottom: 16px;
+}
+
+.paper-detail-card {
+  margin-bottom: 24px;
+}
+
+.paper-detail-title {
+  font-size: 32px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.paper-detail-authors {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.paper-detail-section-title {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: #333;
+}
+
+.paper-detail-abstract {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555;
+}
+
+.paper-detail-doi {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.paper-detail-doi a {
+  color: #667eea;
+  text-decoration: none;
+}
+
+.paper-detail-doi a:hover {
+  text-decoration: underline;
+}
+
+.paper-detail-file {
+  margin-top: 24px;
+}
+
+.paper-detail-rating {
+  margin-top: 16px;
+}
+
+
